@@ -1,0 +1,197 @@
+
+#barra{
+	
+	
+background-image: url(img/encabezado.jpg);
+
+background-position: top;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: inherit;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+}
+
+nav li a:hover{
+
+	background: green;
+}
+
+#derechos {
+
+border: solid 2px #000;
+border-color:red;
+
+}
+#contenido {
+
+border: solid 2px #000;
+border-color:black;
+min-width:300px;
+}
+#margenes {
+	margin:10px;
+}
+
+#cuadros{
+	border: solid 1px #000;
+	margin: 20px;
+}
+
+#cuadrotitulo{
+	border: solid 1px #000;
+  border-color:green;
+  margin:2px;
+}
+
+#titulos-internos{
+	border: solid 1px #000;
+	margin:5px;
+}
+
+#titulo-noticia-principal{
+	
+}
+
+#cuadro1{
+min-width:300px;
+}
+#cuadro2{
+min-width:300px;
+}
+
+
+#img{
+	width: 23vw;
+	min-width:300px;
+}
+#imgedit{
+	width: 30vw;
+	min-width:300px;
+}
+#imgprincipal{
+	width: 33vw;
+	min-width:300px;
+	margin-top:20px;
+	
+}
+#imglogos{
+	
+	width: 10vw;
+	
+	
+}
+#imgmedia{
+	width: 13vw;
+	
+
+}
+
+#imgsecu{
+
+	width: 40vw;
+	min-width:300px;
+	
+}
+
+#imgact{
+	width: 40vw;
+	min-width:300px;
+	margin-left:1vw;
+}
+#img2{
+
+	width: 40vw;
+	min-width:300px;
+
+}
+#imgcgt{
+	width: 25vw;
+	min-width:300px;
+
+}
+
+#imgpeque{
+
+	width: 100px;
+}
+#imgpublicidad{
+	width: 80vw;
+	min-width:300px;
+
+}
+
+
+#periodico{
+	width:90%;  
+      height:100vw;
+	  border:none;	
+}
+
+#presentacion{
+	width:90%;  
+      height:40vw;
+	  border:none;	
+}
+.piedefoto {
+	margin-top:0em;
+	font-size:1vw;
+	text-align:right;
+	margin-right:4vw;
+}
+
+.textoprin {
+	margin-right:2vw;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+#cabecera {
+
+	margin-top: 0px;
+
+}
+
+#mobile-demo {
+
+	margin: 0px;
+}
+
+nav .brand-logo {
+
+	margin: 0px;
+	font-size: 12pt;
+	text-align: left;
+}
+
+
+
+nav a.sidenav-trigger i {
+    height: 64px;
+    line-height: 50px;
+    margin: 0px;
+  }
+
+ nav {
+        /* height: 30px !important;  */       
+       line-height: 55px !important;      
+    	margin: 0px;
+    }
+
+}
